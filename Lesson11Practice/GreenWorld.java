@@ -9,16 +9,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class GreenWorld extends World
 {
     String[] map ={ 
-    "**** ****** ***",
-    "               ",
-    "* ** * ********",
-    "* *           *",
-    "* * * * * * * *",
-    "* * *P* * * * *",
-    "* *           *",
-    "* * ** * **** *",
-    "       *       ",
-    "**** ****** ***"
+    "****.******.***",
+    "...............",
+    "*.**.*.********",
+    "*.*...........*",
+    "*.*.*.*.*.*.*.*",
+    "*.*.*P*.*.*.*.*",
+    "*.*...........*",
+    "*.*.**.*.****.*",
+    ".......*.......",
+    "****.******.***"
     };
     /**
      * Constructor for objects of class GreenWorld.
@@ -58,7 +58,7 @@ public class GreenWorld extends World
         switch(character){
             case '*':
                 return new Obstacle();
-            case ' ':
+            case '.':
                 return new Aphid();
             case 'P':  
                 return new Player();
