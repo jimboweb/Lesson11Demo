@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class GreenWorld extends World
 {
-
     /**
      * Constructor for objects of class GreenWorld.
      * 
@@ -32,7 +31,6 @@ public class GreenWorld extends World
     {
         Player player = new Player();
         addObject(player,309,198);
-        Obstacle obstacle = new Obstacle();
-        addObject(obstacle,446,206);
+        
     }
 }
